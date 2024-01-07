@@ -1,0 +1,19 @@
+#parameters
+  dt: 0.1 
+  #robot config
+  vMin: 0.0
+  vMax: 1.0
+  wMin: -0.6981317
+  wMax: 0.6981317 
+  aVmax: 0.2
+  aWmax: 0.6981317 
+  radius: 1 
+  #forward simulation params
+  predictTime: 3.0
+  vSample: 0.01 #速度采样分辨率
+  wSample: 0.00174533 #角速度采样分辨率
+  #weight params
+  alpha: 1.0  #heading_weight
+  beta: 1.0  #obs_weight
+  gamma: 1.0  #vel_weight
+  judgeDistance: 10
